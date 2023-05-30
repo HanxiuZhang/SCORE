@@ -1,6 +1,11 @@
 import numpy as np
 
 import torch
+
+import sys
+sys.path.append('~/code/auto-attack/autoattack')
+
+
 from autoattack.autopgd_base import APGDAttack
 
 
